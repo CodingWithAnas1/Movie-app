@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import "react-alice-carousel/lib/alice-carousel.css";
+.App {
+  min-height: 100vh;
+  background-color: #39445a;
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+@media (max-width: 700px) {
+  .App {
+    padding-top: 70px;
+  }
+}
